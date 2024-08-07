@@ -1,4 +1,7 @@
-def merge_sort(arr):
+# time complexity:O(nlog(n))
+# memmory complexity:O(n)
+
+def merge_sort(arr:list) ->list:
     if len(arr) > 1:
         mid = len(arr) // 2
         left_half = arr[:mid]

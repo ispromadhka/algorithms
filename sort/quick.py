@@ -1,4 +1,7 @@
-def quick_sort(arr):
+# time complexity:O(nlog(n)
+# memmory complexity:O(log(n)) -> O(n)
+
+def quick_sort(arr:list) -> list:
     if len(arr) <= 1:
         return arr
     else:
